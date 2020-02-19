@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Euromonitor.Assessment.Domain", "Euromonitor.Assessment.Domain\Euromonitor.Assessment.Domain\Euromonitor.Assessment.Domain.csproj", "{CE074128-832D-4F5B-8953-DC546224E71A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{85DB85E3-BE9C-4C47-B761-B583E0C99C0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D5B0B0AA-C9B4-4A98-8787-16BAD2F84791}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{A2508770-43C4-4927-B1DE-C2C7792057C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Euromonitor.Assessment.Tests", "..\tests\Euromonitor.Assessment.Tests\Euromonitor.Assessment.Tests.csproj", "{5434742A-AB8D-4F77-91A1-FF5C7B1E22CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE074128-832D-4F5B-8953-DC546224E71A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE074128-832D-4F5B-8953-DC546224E71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE074128-832D-4F5B-8953-DC546224E71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE074128-832D-4F5B-8953-DC546224E71A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5434742A-AB8D-4F77-91A1-FF5C7B1E22CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5434742A-AB8D-4F77-91A1-FF5C7B1E22CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5434742A-AB8D-4F77-91A1-FF5C7B1E22CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5434742A-AB8D-4F77-91A1-FF5C7B1E22CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE074128-832D-4F5B-8953-DC546224E71A} = {D5B0B0AA-C9B4-4A98-8787-16BAD2F84791}
+		{5434742A-AB8D-4F77-91A1-FF5C7B1E22CC} = {85DB85E3-BE9C-4C47-B761-B583E0C99C0D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2699A6E-5ADA-4ECA-A939-DD8D8F7BBA40}
+	EndGlobalSection
+EndGlobal
